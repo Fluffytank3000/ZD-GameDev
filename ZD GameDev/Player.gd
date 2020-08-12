@@ -18,7 +18,7 @@ func _physics_process(delta):
 	
 	if is_on_floor():
 		if Input.is_action_pressed("Jump"):
-			motion.y = -100
+			motion.y = -350
 	motion = move_and_slide(motion, UP)
 	pass
 
